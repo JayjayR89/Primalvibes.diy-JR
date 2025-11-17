@@ -1,4 +1,4 @@
 [build]
-  publish = "build/client"
-  base = "./vibes.diy/pkg"
-
+publish = "dist"
+base = "./vibes.diy/pkg"
+command = "npm run build"
